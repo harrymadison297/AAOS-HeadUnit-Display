@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Theme.AAOS_ONELINK" parent="android:Theme.Material.NoActionBar.Fullscreen" />
+</resources>

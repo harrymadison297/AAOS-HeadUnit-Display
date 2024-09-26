@@ -1,0 +1,78 @@
+[versions]
+agp = "8.5.1"
+androidsvg = "1.4"
+chart = "Beta-0.0.5"
+datastore = "1.1.1"
+koalaplotCore = "0.6.0"
+kotlin = "2.0.10"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+kotlinxSerializationJson = "1.7.1"
+lifecycleRuntimeKtx = "2.8.4"
+activityCompose = "1.9.1"
+composeBom = "2024.04.01"
+mapsCompose = "6.1.2"
+mapsComposeUtils = "6.1.2"
+mapsComposeWidgets = "6.1.2"
+mapsforgeCore = "0.21.0"
+mapsforgeMap = "0.21.0"
+mapsforgeMapAndroid = "0.21.0"
+mapsforgeMapReader = "0.21.0"
+mapsforgeThemes = "0.21.0"
+playServicesMaps = "19.0.0"
+roomRuntime = "2.6.1"
+serialport = "2.1.1"
+uiTextGoogleFonts = "1.7.0"
+googleAndroidLibrariesMapsplatformSecretsGradlePlugin = "2.0.1"
+constraintlayout = "2.1.4"
+material = "1.12.0"
+activity = "1.9.2"
+
+[libraries]
+androidsvg = { module = "com.caverock:androidsvg", version.ref = "androidsvg" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-datastore = { module = "androidx.datastore:datastore", version.ref = "datastore" }
+androidx-datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastore" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomRuntime" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomRuntime" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
+androidx-ui-text-google-fonts = { module = "androidx.compose.ui:ui-text-google-fonts", version.ref = "uiTextGoogleFonts" }
+chart = { module = "io.github.thechance101:chart", version.ref = "chart" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+koalaplot-core = { module = "io.github.koalaplot:koalaplot-core", version.ref = "koalaplotCore" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
+maps-compose = { module = "com.google.maps.android:maps-compose", version.ref = "mapsCompose" }
+maps-compose-utils = { module = "com.google.maps.android:maps-compose-utils", version.ref = "mapsComposeUtils" }
+maps-compose-widgets = { module = "com.google.maps.android:maps-compose-widgets", version.ref = "mapsComposeWidgets" }
+mapsforge-core = { module = "com.github.mapsforge.mapsforge:mapsforge-core", version.ref = "mapsforgeCore" }
+mapsforge-map = { module = "com.github.mapsforge.mapsforge:mapsforge-map", version.ref = "mapsforgeMap" }
+mapsforge-map-android = { module = "com.github.mapsforge.mapsforge:mapsforge-map-android", version.ref = "mapsforgeMapAndroid" }
+mapsforge-map-reader = { module = "com.github.mapsforge.mapsforge:mapsforge-map-reader", version.ref = "mapsforgeMapReader" }
+mapsforge-themes = { module = "com.github.mapsforge.mapsforge:mapsforge-themes", version.ref = "mapsforgeThemes" }
+play-services-maps = { module = "com.google.android.gms:play-services-maps", version.ref = "playServicesMaps" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+serialport = { module = "io.github.xmaihh:serialport", version.ref = "serialport" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+google-android-libraries-mapsplatform-secrets-gradle-plugin = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", version.ref = "googleAndroidLibrariesMapsplatformSecretsGradlePlugin" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
